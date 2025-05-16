@@ -1,5 +1,5 @@
 {% set name = "hpv-kite" %}
-{% set version = "1.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hpdcj/HPV-KITE/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e928ceb741b4b1fd3ade33e6204530e5998c4b5091f4a9d7f2e094bdef897ec7
+  sha256: ec6f5f680bde766f2f35ea48b2394050882229840f192ee1ca8c2969cc57a094
 
 build:
   noarch: generic
@@ -35,9 +35,9 @@ about:
     HPV-Kite not only expedites viral detection but also maintains comparable
     sensitivity to existing approaches.
   license: BSD-3-Clause
-  license_file: 
+  license_file:
     - LICENSE
-    - build/reports/dependency-license/ 
+    - build/reports/dependency-license/
 
 
 extra:
